@@ -1,0 +1,115 @@
+@media screen and (max-width: 1180px) {
+    .article__img{
+        width: 250px;
+        height: 250px;
+    }
+    .article__desc{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .second-post{
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .main{
+        justify-content: space-between;
+    }
+    .main__img{
+        width: 400px;
+    }
+    .main-info{
+        font-size: 35px;
+        max-width: 300px;
+    }
+    .article__desc{
+        line-height: normal;
+    }
+    .about__img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .about{
+        padding: 20px 0 0 0;
+    }
+    .about__title{
+        padding: 0;
+        font-size: 40px;
+    }
+    .about__desc{
+        font-size: 16px;
+    }
+    .article{
+        padding-top: 30px;
+    }
+    .main__img{
+        width: 250px;
+    }
+    .main-info{
+        font-size: 25px;
+    }
+    .main{
+        display: flex;
+    }
+    .main-info{
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    .article__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-post{
+        padding: 30px 0;
+    }
+    
+    .article__img{
+        display: none;
+    }
+    .article__desc{
+        padding: 0;
+    }
+    .footer__button{
+        display: none;
+    }
+}
+@media screen and (min-width: 450px) {
+    .nav__logo{
+        font-size: 30px;
+    }
+    
+    .nav__menu{
+        font-size: 20px;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about__img{
+        margin: 0 auto;
+    }
+    .main-info{
+        font-size: 20px;
+        padding: 0;
+    }
+    .main__img{
+        width: 120px;
+    }
+    .main__button{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .about__title{
+        text-align: center;
+    }
+    .main{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
